@@ -72,13 +72,13 @@ Coded by www.creative-tim.com
                 <p>Dashboard</p>
               </a>
             </li>
-            <li class="active">
+            <li>
               <a href="./icons.php">
                 <i class="nc-icon nc-diamond"></i>
                 <p>Icons</p>
               </a>
             </li>
-            <li>
+            <li class="active ">
               <a href="./map.php">
                 <i class="nc-icon nc-pin-3"></i>
                 <p>Maps</p>

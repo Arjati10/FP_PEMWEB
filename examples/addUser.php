@@ -12,6 +12,7 @@ Coded by www.creative-tim.com
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +22,7 @@ Coded by www.creative-tim.com
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Paper Dashboard 2 by Creative Tim
+    Add Dashboard Creative Tim
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -54,45 +55,45 @@ Coded by www.creative-tim.com
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li>
-            <a href="./dashboard.html">
+            <a href="./dashboard.php">
               <i class="nc-icon nc-bank"></i>
               <p>Dashboard</p>
             </a>
           </li>
           <li>
-            <a href="./icons.html">
+            <a href="./icons.php">
               <i class="nc-icon nc-diamond"></i>
               <p>Icons</p>
             </a>
           </li>
           <li>
-            <a href="./map.html">
+            <a href="./map.php">
               <i class="nc-icon nc-pin-3"></i>
               <p>Maps</p>
             </a>
           </li>
           <li>
-            <a href="./notifications.html">
+            <a href="./notifications.php">
               <i class="nc-icon nc-bell-55"></i>
               <p>Notifications</p>
             </a>
           </li>
           <li>
-            <a href="./user.html">
+            <a href="./user.php">
               <i class="nc-icon nc-single-02"></i>
               <p>User Profile</p>
             </a>
           </li>
           <li>
-            <a href="./tables.html">
+            <a href="./tables.php">
               <i class="nc-icon nc-tile-56"></i>
               <p>Table List</p>
             </a>
           </li>
-          <li class="active ">
-            <a href="./typography.html">
-              <i class="nc-icon nc-caps-small"></i>
-              <p>Add User</p>
+          <li class="active">
+            <a href="./addUser.php">
+              <i class="nc-icon nc-single-02"></i>
+              <p>User</p>
             </a>
           </li>
           <li class="active-pro">
@@ -116,7 +117,7 @@ Coded by www.creative-tim.com
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand" href="javascript:;">Paper Dashboard 2</a>
+            <a class="navbar-brand" href="javascript:;">Add Dashboard</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -124,7 +125,7 @@ Coded by www.creative-tim.com
             <span class="navbar-toggler-bar navbar-kebab"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navigation">
-            <form>
+            <form action="addUser.php" method="post">
               <div class="input-group no-border">
                 <input type="text" value="" class="form-control" placeholder="Search...">
                 <div class="input-group-append">
@@ -170,92 +171,156 @@ Coded by www.creative-tim.com
       </nav>
       <!-- End Navbar -->
       <div class="content">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card">
-              <div class="card-header">
-                <h5 class="title">Paper Table Heading</h5>
-                <p class="category">Created using Montserrat Font Family</p>
+      <div class="row">
+            <div class="col-md-4">
+              <div class="card card-user">
+                <div class="image">
+                  <img src="../assets/img/damir-bosnjak.jpg" alt="..." />
+                </div>
+                <div class="card-body">
+                  <div class="author">
+                    <a href="#">
+                      <img
+                        class="avatar border-gray"
+                        src="../assets/img/mike.jpg"
+                        alt="..."
+                      />
+                      <h5 class="title">Super Admin</h5>
+                    </a>
+                  </div>
+                  <p class="description text-center">
+                    "MM COFFEEEE 
+                    Ini Kopikuuuuuu<br />
+                    Mana Kopimuuuuu?????"
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <hr />
+                  <div class="button-container">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-6 col-6 ml-auto">
+                        <h5>5<br /><small>Cabang</small></h5>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-6 ml-auto mr-auto">
+                        <h5>4<br /><small>Karyawan</small></h5>
+                      </div>
+                      <div class="col-lg-3 mr-auto">
+                        <h5>1000$<br /><small>Penghasilan</small></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="card-body">
-                <div class="typography-line">
-                  <h1><span>Header 1</span>The Life of Paper Dashboard </h1>
+            </div>
+            <div class="col-md-8">
+              <div class="card card-user">
+                <div class="card-header">
+                  <h5 class="card-title">Add Admin</h5>
                 </div>
-                <div class="typography-line">
-                  <h2><span>Header 2</span>The Life of Paper Dashboard </h2>
-                </div>
-                <div class="typography-line">
-                  <h3><span>Header 3</span>The Life of Paper Dashboard </h3>
-                </div>
-                <div class="typography-line">
-                  <h4><span>Header 4</span>The Life of Paper Dashboard </h4>
-                </div>
-                <div class="typography-line">
-                  <h5><span>Header 5</span>The Life of Paper Dashboard </h5>
-                </div>
-                <div class="typography-line">
-                  <h6><span>Header 6</span>The Life of Paper Dashboard </h6>
-                </div>
-                <div class="typography-line">
-                  <p><span>Paragraph</span>
-                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.
-                  </p>
-                </div>
-                <div class="typography-line">
-                  <span>Quote</span>
-                  <blockquote>
-                    <p class="blockquote blockquote-primary">
-                      "I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at."
-                      <br>
-                      <br>
-                      <small>
-                        - Noaa
-                      </small>
-                    </p>
-                  </blockquote>
-                </div>
-                <div class="typography-line">
-                  <span>Muted Text</span>
-                  <p class="text-muted">
-                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...
-                  </p>
-                </div>
-                <div class="typography-line">
-                  <span>Primary Text</span>
-                  <p class="text-primary">
-                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...</p>
-                </div>
-                <div class="typography-line">
-                  <span>Info Text</span>
-                  <p class="text-info">
-                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
-                </div>
-                <div class="typography-line">
-                  <span>Success Text</span>
-                  <p class="text-success">
-                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
-                </div>
-                <div class="typography-line">
-                  <span>Warning Text</span>
-                  <p class="text-warning">
-                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...
-                  </p>
-                </div>
-                <div class="typography-line">
-                  <span>Danger Text</span>
-                  <p class="text-danger">
-                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
-                </div>
-                <div class="typography-line">
-                  <h2><span>Small Tag</span>
-                    Header with small subtitle <br>
-                    <small>Use "small" tag for the headers</small>
-                  </h2>
+                <div class="card-body">
+                  <form action="addUser.php" method="post">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label>ADMIN ID</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Admin ID"
+                            name="admin"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label>USERNAME</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Username"
+                            name="username"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label>PASSWORD</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Password"
+                            name="password"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="update ml-auto mr-auto">
+                        <input name="addAdmin" value="Add Admin" type="submit" class="btn btn-primary btn-round">
+                          
+                        </input>
+                      </div>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="card-title">Admin Table</h4>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class="text-primary">
+                        <th>Admin ID</th>
+                        <th>Username</th>
+                        <th>Action</th>
+                      </thead>
+                      <tbody>
+                      <?php
+
+                      include "connection.php";
+                        
+                        if (isset($_POST['addAdmin'])) {
+                          $adminId = $_POST['admin'];
+                          $username = $_POST['username'];
+                          $password = $_POST['password'];
+                      
+                          $simpan = mysqli_query($connection, "INSERT INTO admin (admin_id, username, password) VALUES ('$adminId', '$username', '$password')");
+                      
+                          if ($simpan) {
+                              echo "<script>alert('Data Admin Tersimpan');</script>";
+                          } else {
+                              echo "<script>alert('Data Admin Gagal Tersimpan');</script>";
+                          }
+                      }   
+
+                        $ambilData = mysqli_query($connection, "select admin_id, username from admin");
+                        while($tampil = mysqli_fetch_array($ambilData)){
+                        echo "
+                        <tr>
+                            <td>$tampil[admin_id]</td>
+                            <td>$tampil[username]</td>
+                        </tr>";
+
+                    }
+                    ?>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
       <footer class="footer footer-black  footer-white ">
         <div class="container-fluid">

@@ -1,5 +1,5 @@
 <?php 
 
-$koneksi = mysqli_connect("localhost", "root", "", "coffee_shop");
+$connection = mysqli_connect("localhost", "root", "", "coffee_shop");
 
 ?>

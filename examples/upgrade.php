@@ -59,7 +59,7 @@ Coded by www.creative-tim.com
                 <p>Dashboard</p>
               </a>
             </li>
-            <li class="active">
+            <li>
               <a href="./icons.php">
                 <i class="nc-icon nc-diamond"></i>
                 <p>Icons</p>

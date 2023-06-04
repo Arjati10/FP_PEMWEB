@@ -72,7 +72,7 @@ Coded by www.creative-tim.com
                 <p>Dashboard</p>
               </a>
             </li>
-            <li class="active">
+            <li>
               <a href="./icons.php">
                 <i class="nc-icon nc-diamond"></i>
                 <p>Icons</p>
@@ -90,7 +90,7 @@ Coded by www.creative-tim.com
                 <p>Notifications</p>
               </a>
             </li>
-            <li>
+            <li class="active">
               <a href="./user.php">
                 <i class="nc-icon nc-single-02"></i>
                 <p>User Profile</p>
