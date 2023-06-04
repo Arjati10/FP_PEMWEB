@@ -54,7 +54,7 @@ Coded by www.creative-tim.com
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="active ">
-            <a href="./dashboard.html">
+            <a href="./dashboard.php">
               <i class="nc-icon nc-bank"></i>
               <p>Dashboard</p>
             </a>
@@ -92,7 +92,7 @@ Coded by www.creative-tim.com
           <li>
             <a href="./typography.html">
               <i class="nc-icon nc-caps-small"></i>
-              <p>Typography</p>
+              <p>Add User</p>
             </a>
           </li>
           <li class="active-pro">

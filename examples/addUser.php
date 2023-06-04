@@ -89,13 +89,13 @@ Coded by www.creative-tim.com
               <p>Table List</p>
             </a>
           </li>
-          <li>
-            <a href="./addUser.php">
+          <li class="active ">
+            <a href="./typography.html">
               <i class="nc-icon nc-caps-small"></i>
               <p>Add User</p>
             </a>
           </li>
-          <li class="active  active-pro " class="active-pro">
+          <li class="active-pro">
             <a href="./upgrade.html">
               <i class="nc-icon nc-spaceship"></i>
               <p>Upgrade to PRO</p>
@@ -171,72 +171,86 @@ Coded by www.creative-tim.com
       <!-- End Navbar -->
       <div class="content">
         <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <div class="card card-upgrade">
-              <div class="card-header text-center">
-                <h4 class="card-title">Paper Dashboard PRO</h3>
-                  <p class="card-category">Are you looking for more components? Please check our Premium Version of Paper Dashboard PRO.</p>
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="title">Paper Table Heading</h5>
+                <p class="category">Created using Montserrat Font Family</p>
               </div>
               <div class="card-body">
-                <div class="table-responsive table-upgrade">
-                  <table class="table">
-                    <thead>
-                      <th></th>
-                      <th class="text-center">Free</th>
-                      <th class="text-center">PRO</th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Components</td>
-                        <td class="text-center">16</td>
-                        <td class="text-center">160</td>
-                      </tr>
-                      <tr>
-                        <td>Plugins</td>
-                        <td class="text-center">4</td>
-                        <td class="text-center">13</td>
-                      </tr>
-                      <tr>
-                        <td>Example Pages</td>
-                        <td class="text-center">7</td>
-                        <td class="text-center">27</td>
-                      </tr>
-                      <tr>
-                        <td>Login, Register, Pricing, Lock Pages</td>
-                        <td class="text-center"><i class="nc-icon nc-simple-remove text-danger"></i></td>
-                        <td class="text-center"><i class="nc-icon nc-check-2 text-success"></i></td>
-                      </tr>
-                      <tr>
-                        <td>DataTables, VectorMap, SweetAlert, Wizard, jQueryValidation, FullCalendar etc...</td>
-                        <td class="text-center"><i class="nc-icon nc-simple-remove text-danger"></i></td>
-                        <td class="text-center"><i class="nc-icon nc-check-2 text-success"></i></td>
-                      </tr>
-                      <tr>
-                        <td>Mini Sidebar</td>
-                        <td class="text-center"><i class="nc-icon nc-simple-remove text-danger"></i></td>
-                        <td class="text-center"><i class="nc-icon nc-check-2 text-success"></i></td>
-                      </tr>
-                      <tr>
-                        <td>Premium Support</td>
-                        <td class="text-center"><i class="nc-icon nc-simple-remove text-danger"></i></td>
-                        <td class="text-center"><i class="nc-icon nc-check-2 text-success"></i></td>
-                      </tr>
-                      <tr>
-                        <td></td>
-                        <td class="text-center">Free</td>
-                        <td class="text-center">Just $39</td>
-                      </tr>
-                      <tr>
-                        <td class="text-center"></td>
-                        <td class="text-center">
-                          <a href="#" class="btn btn-round btn-default disabled">Current Version</a>
-                        </td>
-                        <td class="text-center">
-                          <a target="_blank" href="https://www.creative-tim.com/product/paper-dashboard-2-pro?ref=pd-free-upgrade-live" class="btn btn-round btn-primary">Upgrade to PRO</a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <div class="typography-line">
+                  <h1><span>Header 1</span>The Life of Paper Dashboard </h1>
+                </div>
+                <div class="typography-line">
+                  <h2><span>Header 2</span>The Life of Paper Dashboard </h2>
+                </div>
+                <div class="typography-line">
+                  <h3><span>Header 3</span>The Life of Paper Dashboard </h3>
+                </div>
+                <div class="typography-line">
+                  <h4><span>Header 4</span>The Life of Paper Dashboard </h4>
+                </div>
+                <div class="typography-line">
+                  <h5><span>Header 5</span>The Life of Paper Dashboard </h5>
+                </div>
+                <div class="typography-line">
+                  <h6><span>Header 6</span>The Life of Paper Dashboard </h6>
+                </div>
+                <div class="typography-line">
+                  <p><span>Paragraph</span>
+                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.
+                  </p>
+                </div>
+                <div class="typography-line">
+                  <span>Quote</span>
+                  <blockquote>
+                    <p class="blockquote blockquote-primary">
+                      "I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at."
+                      <br>
+                      <br>
+                      <small>
+                        - Noaa
+                      </small>
+                    </p>
+                  </blockquote>
+                </div>
+                <div class="typography-line">
+                  <span>Muted Text</span>
+                  <p class="text-muted">
+                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...
+                  </p>
+                </div>
+                <div class="typography-line">
+                  <span>Primary Text</span>
+                  <p class="text-primary">
+                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...</p>
+                </div>
+                <div class="typography-line">
+                  <span>Info Text</span>
+                  <p class="text-info">
+                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
+                </div>
+                <div class="typography-line">
+                  <span>Success Text</span>
+                  <p class="text-success">
+                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
+                </div>
+                <div class="typography-line">
+                  <span>Warning Text</span>
+                  <p class="text-warning">
+                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...
+                  </p>
+                </div>
+                <div class="typography-line">
+                  <span>Danger Text</span>
+                  <p class="text-danger">
+                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
+                </div>
+                <div class="typography-line">
+                  <h2><span>Small Tag</span>
+                    Header with small subtitle <br>
+                    <small>Use "small" tag for the headers</small>
+                  </h2>
                 </div>
               </div>
             </div>
