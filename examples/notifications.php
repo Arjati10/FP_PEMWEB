@@ -67,37 +67,37 @@ Coded by www.creative-tim.com
         <div class="sidebar-wrapper">
           <ul class="nav">
             <li>
-              <a href="./dashboard.html">
+              <a href="./dashboard.php">
                 <i class="nc-icon nc-bank"></i>
                 <p>Dashboard</p>
               </a>
             </li>
-            <li>
-              <a href="./icons.html">
+            <li class="active">
+              <a href="./icons.php">
                 <i class="nc-icon nc-diamond"></i>
                 <p>Icons</p>
               </a>
             </li>
             <li>
-              <a href="./map.html">
+              <a href="./map.php">
                 <i class="nc-icon nc-pin-3"></i>
                 <p>Maps</p>
               </a>
             </li>
-            <li class="active">
-              <a href="./notifications.html">
+            <li>
+              <a href="./notifications.php">
                 <i class="nc-icon nc-bell-55"></i>
                 <p>Notifications</p>
               </a>
             </li>
             <li>
-              <a href="./user.html">
+              <a href="./user.php">
                 <i class="nc-icon nc-single-02"></i>
                 <p>User Profile</p>
               </a>
             </li>
             <li>
-              <a href="./tables.html">
+              <a href="./tables.php">
                 <i class="nc-icon nc-tile-56"></i>
                 <p>Table List</p>
               </a>

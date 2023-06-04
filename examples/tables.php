@@ -67,37 +67,37 @@ Coded by www.creative-tim.com
         <div class="sidebar-wrapper">
           <ul class="nav">
             <li>
-              <a href="./dashboard.html">
+              <a href="./dashboard.php">
                 <i class="nc-icon nc-bank"></i>
                 <p>Dashboard</p>
               </a>
             </li>
-            <li>
-              <a href="./icons.html">
+            <li class="active">
+              <a href="./icons.php">
                 <i class="nc-icon nc-diamond"></i>
                 <p>Icons</p>
               </a>
             </li>
-            <li class="active">
-              <a href="./map.html">
+            <li>
+              <a href="./map.php">
                 <i class="nc-icon nc-pin-3"></i>
                 <p>Maps</p>
               </a>
             </li>
             <li>
-              <a href="./notifications.html">
+              <a href="./notifications.php">
                 <i class="nc-icon nc-bell-55"></i>
                 <p>Notifications</p>
               </a>
             </li>
             <li>
-              <a href="./user.html">
+              <a href="./user.php">
                 <i class="nc-icon nc-single-02"></i>
                 <p>User Profile</p>
               </a>
             </li>
             <li>
-              <a href="./tables.html">
+              <a href="./tables.php">
                 <i class="nc-icon nc-tile-56"></i>
                 <p>Table List</p>
               </a>
@@ -214,9 +214,128 @@ Coded by www.creative-tim.com
           <div class="row">
             <div class="col-md-12">
               <div class="card">
-                <div class="card-header">Google Maps</div>
+                <div class="card-header">
+                  <h4 class="card-title">Simple Table</h4>
+                </div>
                 <div class="card-body">
-                  <div id="map" class="map"></div>
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class="text-primary">
+                        <th>Name</th>
+                        <th>Country</th>
+                        <th>City</th>
+                        <th class="text-right">Salary</th>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Dakota Rice</td>
+                          <td>Niger</td>
+                          <td>Oud-Turnhout</td>
+                          <td class="text-right">$36,738</td>
+                        </tr>
+                        <tr>
+                          <td>Minerva Hooper</td>
+                          <td>Curaçao</td>
+                          <td>Sinaai-Waas</td>
+                          <td class="text-right">$23,789</td>
+                        </tr>
+                        <tr>
+                          <td>Sage Rodriguez</td>
+                          <td>Netherlands</td>
+                          <td>Baileux</td>
+                          <td class="text-right">$56,142</td>
+                        </tr>
+                        <tr>
+                          <td>Philip Chaney</td>
+                          <td>Korea, South</td>
+                          <td>Overland Park</td>
+                          <td class="text-right">$38,735</td>
+                        </tr>
+                        <tr>
+                          <td>Doris Greene</td>
+                          <td>Malawi</td>
+                          <td>Feldkirchen in Kärnten</td>
+                          <td class="text-right">$63,542</td>
+                        </tr>
+                        <tr>
+                          <td>Mason Porter</td>
+                          <td>Chile</td>
+                          <td>Gloucester</td>
+                          <td class="text-right">$78,615</td>
+                        </tr>
+                        <tr>
+                          <td>Jon Porter</td>
+                          <td>Portugal</td>
+                          <td>Gloucester</td>
+                          <td class="text-right">$98,615</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="card card-plain">
+                <div class="card-header">
+                  <h4 class="card-title">Table on Plain Background</h4>
+                  <p class="card-category">Here is a subtitle for this table</p>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class="text-primary">
+                        <th>Name</th>
+                        <th>Country</th>
+                        <th>City</th>
+                        <th class="text-right">Salary</th>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Dakota Rice</td>
+                          <td>Niger</td>
+                          <td>Oud-Turnhout</td>
+                          <td class="text-right">$36,738</td>
+                        </tr>
+                        <tr>
+                          <td>Minerva Hooper</td>
+                          <td>Curaçao</td>
+                          <td>Sinaai-Waas</td>
+                          <td class="text-right">$23,789</td>
+                        </tr>
+                        <tr>
+                          <td>Sage Rodriguez</td>
+                          <td>Netherlands</td>
+                          <td>Baileux</td>
+                          <td class="text-right">$56,142</td>
+                        </tr>
+                        <tr>
+                          <td>Philip Chaney</td>
+                          <td>Korea, South</td>
+                          <td>Overland Park</td>
+                          <td class="text-right">$38,735</td>
+                        </tr>
+                        <tr>
+                          <td>Doris Greene</td>
+                          <td>Malawi</td>
+                          <td>Feldkirchen in Kärnten</td>
+                          <td class="text-right">$63,542</td>
+                        </tr>
+                        <tr>
+                          <td>Mason Porter</td>
+                          <td>Chile</td>
+                          <td>Gloucester</td>
+                          <td class="text-right">$78,615</td>
+                        </tr>
+                        <tr>
+                          <td>Jon Porter</td>
+                          <td>Portugal</td>
+                          <td>Gloucester</td>
+                          <td class="text-right">$98,615</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
@@ -278,10 +397,5 @@ Coded by www.creative-tim.com
     ></script>
     <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
     <script src="../assets/demo/demo.js"></script>
-    <script>
-      $(document).ready(function () {
-        demo.initGoogleMaps();
-      });
-    </script>
   </body>
 </html>
